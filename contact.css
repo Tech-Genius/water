@@ -1,0 +1,107 @@
+.firstHolder{
+    background-image: url(pics/Untitled-1.jpg);
+    height: 300px;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.cont{
+    height: auto;
+    width: 80%;
+    padding: 100px 0px;
+    color: ghostwhite;
+    justify-content: center;
+    margin-left: 50px;
+}
+.cont h3{
+    font-size: 50px;
+    font-family: 'DM Serif Display', serif;
+}
+
+.office{
+    margin-top: 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+}
+.officePikin{
+    
+ display: flex;
+ width: auto;
+ justify-content: center;
+}
+.office h3{
+color:  rgba(5, 5, 85, 0.774);
+font-size: 32px;
+font-family: 'DM Serif Display', serif;
+}
+.pikin1 p{
+    margin-top: 30px;
+    color: #027BAE;
+    width: 90%;
+    font-size: 20px;
+}
+.pikin2{
+    width: 80%;
+}
+.pikin1{
+    width: 80%;
+}
+.pikin2 h4{
+    color: #027BAE;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+.pikin2 h4 span{
+    color:  #027aaeec;
+    font-weight: lighter;
+}
+.ic{
+    margin-top: 100px;
+}
+.ic i{
+    font-size: 30px; 
+    color: #027BAE;
+    font-weight: bold;
+}
+.ic i span{
+    margin: 0px 10px;
+}
+
+.reach2{
+    margin-top: 50px;
+}
+
+.reach2 i {
+    font-size: 25px;
+    width: 55px;
+    border-radius: 50px;
+    height: 55px;
+    text-align: center;
+    padding-top: 15px;
+    color:ghostwhite ;
+    margin: 0px 10px;
+   
+}
+.reach2 i:hover{
+    margin-bottom: 20px;
+}
+
+
+
+
+@media screen and (max-width:940px){
+    .office{
+        grid-template-columns: 1fr;
+    }
+    .pikin2{
+        width: 80%;
+        justify-self: center;
+        margin-top: 40px;
+    }
+    .form{
+        width: 70%;
+        justify-self: center;
+        margin-top: 40px;
+    }
+}
+
